@@ -116,7 +116,7 @@ app.post('/users/login', (req, res) => {
       });
     })
     .catch(e => {
-      res.send(400).send();
+      res.sendStatus(400).send();
     });
 });
 
